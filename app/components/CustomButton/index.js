@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     container:{
         height:scale(50),
         backgroundColor:appColors.primary,
-        borderRadius:scale(30),
+        borderRadius:scale(12),
         justifyContent:"center",
         alignItems:"center",
         overflow:"hidden",

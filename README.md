@@ -1,5 +1,5 @@
-# [react-native-redux-starter](https://amusoftech.xyz/)
-# [Docs are here](./docs/)
+# [React Native ToDo](https://amusoftech.xyz/)
+# [UI is here](https://www.figma.com/file/uoBrmHjNWpqg1ztRrvw3Ju/On-Time-To-Do-List-Apps-Community)
 A starter boilerplate for a mobile app using React Native and Redux.
 ####  Dark Mode Enabled 🔆
 ## Requirements
