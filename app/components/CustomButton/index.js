@@ -8,7 +8,7 @@ import Label from '../Label'
 export default function index({label,style,onPress,labelStyle}) {
     return (
         <TouchableRipple rippleColor={appColors.white} onPress={onPress} rippleDuration={800} style={[styles.container,style]}> 
-            <Label text={`${label}`.toUpperCase()} style={[styles.label,labelStyle]}/>
+            <Label text={`${label}`} style={[styles.label,labelStyle]}/>
         </TouchableRipple>
     )
 }
@@ -16,7 +16,7 @@ export default function index({label,style,onPress,labelStyle}) {
 const styles = StyleSheet.create({
     container:{
         height:scale(50),
-        backgroundColor:appColors.primary,
+        backgroundColor:appColors.white,
         borderRadius:scale(12),
         justifyContent:"center",
         alignItems:"center",

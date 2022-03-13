@@ -20,9 +20,9 @@ function Label({text, style, appState: {darkMode}, bold, semiBold, medium}) {
     <Text
       style={[
         styles.label,
-        style,
-        darkMode ? styles.dark : styles.light,
-        getFontStyle(),
+        
+          styles.dark  ,
+        getFontStyle(),style,
       ]}>
       {text}
     </Text>
